@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: shopserver
+netty:
+  default:
+    allocator:
+      max-order: 3
+config:
+  database:
+    url: "jdbc:postgresql://localhost:5432/dbtest"
+    username: "postgres"
+    password: "postgres"
