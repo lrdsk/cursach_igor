@@ -19,6 +19,7 @@ public class ShopRepo { //класс для взаимодействия с шо
         String shop_namedirector = result.getString("shop_namedirector");
 
         return new Shop(shop_name,address,specialization,shop_namedirector);
+        //sa
     }
 
     public Shop getInfoAboutShopFromBase() throws SQLException { //берет всю информацию о магазине из таблицы в постгресе
